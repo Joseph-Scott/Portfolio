@@ -1,12 +1,12 @@
-import React from 'react'
 import './App.css'
+import AppRouter from "./containers/AppRouter";
 
 function App() {
   return (
-    <div>
-      <p>Clean React App</p>
+    <div className="App">
+      <AppRouter />
     </div>
-  )
+  );
 }
 
 export default App;
