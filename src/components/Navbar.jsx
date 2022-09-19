@@ -10,14 +10,14 @@ const Navbar = () => {
 
         <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
           <ul class="navbar-nav">
-          <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./Home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./Skills">Skills</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./Projects">Projects</a>
+           <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Project">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./Contact">Contact</a>
