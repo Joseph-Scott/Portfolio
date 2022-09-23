@@ -1,30 +1,23 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import '../index.css';
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="/Home">Home</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/Skills">Skills</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/Projects">Projects</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/Contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <>
+      <Navbar className="fixed-top" bg="black" variant="dark">
+        <Container>
+          <Nav className="m-auto">
+            <Nav.Link href="#scrollspyHeading1">home</Nav.Link>
+            <Nav.Link href="/skills">skills</Nav.Link>
+            <Nav.Link href="/projects">projects</Nav.Link>
+            <Nav.Link href="/contact">contact</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+    </>
   )
 };
 

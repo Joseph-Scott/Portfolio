@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.card {
+  background-color: black;
+  color: white;
+}
+
+#skills {
+  width: 8rem;
+}
+
+#projects {
+  
+}
