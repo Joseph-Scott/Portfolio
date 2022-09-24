@@ -15,7 +15,7 @@ const Home = () => {
           <Image src={Headshot} className="rounded-4 d-block mx-lg-auto img-fluid" alt="Headshot" width="700" height="500" loading="lazy"/>
         </Col>
         <Col lg={6}>
-          <h1 className="display-5 fw-bold lh-1 mb-3" id="scrollspyHeading1">hi, I'm Joe</h1>
+          <h1 className="display-5 fw-bold lh-1 mb-3">hi, I'm Joe</h1>
           <p>I'm a front end software developer living in the Atlanta, 
             Georgia area. I attended Penn State University and have a degree in Human Development and Family Studies. 
             I have been working in the social services field for several years because I have a passion for understanding 
@@ -35,7 +35,6 @@ const Home = () => {
             and <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">React-The Complete Guide</a>.</p>
           <div className="d-grid gap-2 d-md-flex justify-content-md-start">
             <Button variant="outline-light btn-lg px-4">my resume</Button>
-            
           </div>
         </Col>
       </Row>

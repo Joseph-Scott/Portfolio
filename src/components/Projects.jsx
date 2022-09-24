@@ -17,12 +17,14 @@ const Projects = () => {
         <Card id="projects">
           <Card.Img variant="top" src={ColorGame} />
           <Card.Body>
-            <Card.Title>Color Game</Card.Title>
+            <Card.Title>RGB Color Game</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Skills used: HTML, CSS, Javascript
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              <Button variant="outline-light btn-lg px-4">demo</Button>
+              <Button variant="outline-light btn-lg px-4">github</Button>
+            </div>
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -30,10 +32,13 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>Keeper</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              A single page React app project for keeping notes that focuses on using props, 
+              hooks, conditional rendering, managing complex state, and managing component trees
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              <Button variant="outline-light btn-lg px-4">demo</Button>
+              <Button variant="outline-light btn-lg px-4">github</Button>
+            </div>
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -41,10 +46,14 @@ const Projects = () => {
           <Card.Body>
             <Card.Title>YelpCamp</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Skills used: HTML, Javascript, CSS and Bootstrap for styling, Flash messaging, 
+              Node.js with Express.js for handling routes and views (with EJS templating), 
+              Passport for authentication, and MongoDB for database with Mongoose for data modeling
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+              <Button variant="outline-light btn-lg px-4">demo</Button>
+              <Button variant="outline-light btn-lg px-4">github</Button>
+            </div>
           </Card.Body>
         </Card>
       </Container>
