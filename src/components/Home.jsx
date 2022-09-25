@@ -9,12 +9,12 @@ import '../index.css';
 
 const Home = () => {
   return (
-    <Container className="col-xxl-8 px-4 py-4 my-5">
-      <Row className="flex-lg-row-reverse align-items-center g-5 py-5">
-        <Col md={5} lg={5} xxl={4} >
-          <Image src={Headshot} className="rounded-4 d-block mx-lg-auto img-fluid" alt="Headshot" width="700" height="500" loading="lazy"/>
+    <Container className="col-xxl-8 px-4 py-5 my-5">
+      <Row className="align-items-center g-5 py-5">
+        <Col col={10} sm={8} lg={6} >
+          <Image src={Headshot} className="rounded-4 d-block mx-lg-auto img-fluid" alt="Headshot" loading="lazy" id="headshot"/>
         </Col>
-        <Col lg={6}>
+        <Col md={6} lg={6} xxl={6}>
           <h1 className="display-5 fw-bold lh-1 mb-3">hi, I'm Joe</h1>
           <p>I'm a front end software developer living in the Atlanta, 
             Georgia area. I attended Penn State University and have a degree in Human Development and Family Studies. 

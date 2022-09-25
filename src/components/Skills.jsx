@@ -13,48 +13,47 @@ import REact from '../img/react.png';
 
 const Skills = () => {
   return (
-    <>
-      <Container className="col-xxl-8 mt-2 mb-5 px-4 py-5">
-        <p id="scrollspyHeading2">skills</p>
-        <p>these are the main technologies I've worked with</p>
-        <Row className="flex-row align-items-center py-5">
-          <Col>
-            <Card className="bg-dark" id="skills">
-              <Card.Img src={JavaScript} alt="Card image" />
-            </Card>
-            <h5>Javascript</h5>
-          </Col>
-          <Col>
-            <Card className="bg-dark" id="skills">
-              <Card.Img src={Html5} alt="Card image" />
-            </Card>
-          </Col>
-          <Col>
-            <Card className="bg-dark" id="skills">
-              <Card.Img src={Css3} alt="Card image" />
-            </Card>
-          </Col>
-        </Row>
-        <Row className="flex-row align-items-center py-5">
-          <Col>
-            <Card className="bg-dark" id="skills">
-              <Card.Img src={GIt} alt="Card image" />
-            </Card>
-          </Col>
-          <Col>
-            <Card className="bg-dark" id="skills">
-              <Card.Img src={NOde} alt="Card image" />
-            </Card>
-          </Col>
-          <Col>
-            <Card className="bg-dark" id="skills">
-              <Card.Img src={REact} alt="Card image" />
-            </Card>
-          </Col>
-        </Row>
+    <Container className=" px-4 py-4 my-5">
+      <Row>
+        <h1 className="display-5 fw-bold lh-1 mb-3">skills</h1>
+        <p>|| these are the main technologies I've worked with</p>
+      </Row>
+      <Row className="justify-content-center">
+        <Col>
+          <Card className="bg-dark" id="skills">
+            <Card.Img src={JavaScript} alt="Card image" />
+          </Card>
+          <h5>Javascript</h5>
+        </Col>
+        <Col>
+          <Card className="bg-dark" id="skills">
+            <Card.Img src={Html5} alt="Card image" />
+          </Card>
+        </Col>
+        <Col>
+          <Card className="bg-dark" id="skills">
+            <Card.Img src={Css3} alt="Card image" />
+          </Card>
+        </Col>
+      </Row>
+      <Row className="justify-content-center">
+        <Col>
+          <Card className="bg-dark" id="skills">
+            <Card.Img src={GIt} alt="Card image" />
+          </Card>
+        </Col>
+        <Col>
+          <Card className="bg-dark" id="skills">
+            <Card.Img src={NOde} alt="Card image" />
+          </Card>
+        </Col>
+        <Col>
+          <Card className="bg-dark" id="skills">
+            <Card.Img src={REact} alt="Card image" />
+          </Card>
+        </Col>
+      </Row>
     </Container>
-      
-    </>
   );
 };
 
